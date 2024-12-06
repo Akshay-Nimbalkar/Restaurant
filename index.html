@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Akshay Nimbalkar">
+    <meta name="description" content="A simple restaurant website design. Responsive restaurant webdsite using HTML and CSS">
+    <meta name="keywords" content="Restaurant website, responsive restaurant website.">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/2b3a2f50fe.js" crossorigin="anonymous"></script>  
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">
+                    <img src="logo/logo.png" alt="Delicious Bites Logo">
+                </a>
+            </div>
+            <!-- Checkbox for CSS-Only Hamburger Menu -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <section class="main_section">
+                <div id="main_img">
+                    <img src="logo/hero_image.png">
+                </div>
+
+                <div class="main_info">
+                    <p><span id="discount">50% off on all products</span></p>
+                    <p><strong>Enjoy Your Delicious Food</strong></p>
+                    <p id="normal_text">We are here to provide you Delicious, Fresh and Healthy food</p>
+                    <p><span id="explore">Explore Now</span></p>
+                </div>
+
+                <div id="services" class="services">
+
+                    <div id="discount_voucher">
+                        <img src="logo/discount.png" alt="discount voucher icon">
+                        <strong>Discount Voucher</strong>
+                        <p>Get discount on every your every order</p>
+                    </div>
+
+                    <div id="fresh_food">
+                        <img src="logo/fresh.png" alt="fresh food icon">
+                        <strong>Fresh Food</strong>
+                        <p>Delicious and Super Fresh food on your demand</p>
+                    </div>
+
+                    <div id="home_delivery">
+                        <img src="logo/delivery.png" alt="home delivery icon">
+                        <strong>Home Delivery</strong>
+                        <p>Available home delivery for our customers</p>
+                    </div>
+                </div>
+            <!--</section>
+
+            <section>-->
+                <div id="menu" class="explore">
+                    <span>OUR MENU</span>
+                    <p><strong>Explore our menu</strong></p>
+                </div>
+
+                <div class="food_images">
+                    <img src="images/grid_image1.png" alt="food image1" id="img1">
+                    <img src="images/grid_image2.png" alt="food image2" id="img2">
+                    <img src="images/grid_image3.png" alt="food image3" id="img3">
+                    <img src="images/grid_image4.png" alt="food image4" id="img4">
+                    <img src="images/grid_image5.png" alt="food image5" id="img5">
+                    <img src="images/grid_image6.png" alt="food image6" id="img6">
+                    <img src="images/grid_image7.png" alt="food image7" id="img7">
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer id="contact">
+            <div id="footer_logo">
+                <img src="logo/logo.png" alt="logo of restaurant">
+            </div>
+
+            <div class="main_links">
+                <p><span>Main Links</span></p>
+                <ol>
+                    <li>Order Tracking</li>
+                    <li>New Order</li>
+                    <li>Conatct us</li>
+                    <li>News and Blogs</li>
+                </ol>
+            </div>
+
+            <div class="support">
+                <p><span>Support</span></p>
+                <ol>
+                    <li>About us</li>
+                    <li>Privacy Policy </li>
+                    <li>Terms and conditions</li>
+                </ol>
+            </div>
+
+            <div class="follow">
+                <p><span>Follow on</span></p>
+                
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                
+            </div>
+        </footer>
+   
+</body>
+</html>
